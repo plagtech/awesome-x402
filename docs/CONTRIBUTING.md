@@ -7,8 +7,8 @@ Thank you for your interest in contributing to the Awesome x402 Landing Page! ðŸ
 1. **Fork** the repository on GitHub
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/awesome-x402-page.git
-   cd awesome-x402-page
+   git clone https://github.com/YOUR_USERNAME/awesome-x402.git
+   cd awesome-x402
    ```
 3. **Create** a new branch for your feature:
    ```bash
@@ -206,8 +206,8 @@ Before submitting a PR, ensure:
 ### Local Testing
 ```bash
 # Clone and navigate
-git clone https://github.com/xpaysh/awesome-x402-page.git
-cd awesome-x402-page
+git clone https://github.com/xpaysh/awesome-x402.git
+cd awesome-x402
 
 # Start local server (choose one)
 # Option 1: Python
@@ -412,7 +412,7 @@ Contributors will be recognized:
 
 - **GitHub Issues**: Technical problems
 - **GitHub Discussions**: General questions
-- **Email**: xpaysh@gmail.com
+- **Email**: hello@xpay.sh
 - **Discord**: Join the x402 community
 
 Thank you for contributing to make this landing page awesome! ðŸš€
