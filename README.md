@@ -505,6 +505,7 @@ Projects building with or extending x402.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - [BuffetPay](https://buffetpay.com) - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
+- [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
 
 ### DeFi & Finance
 
