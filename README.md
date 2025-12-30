@@ -115,12 +115,6 @@ Official and community implementations of the x402 protocol.
 - [x402-axum](https://github.com/x402-rs/x402-rs/tree/main/x402-axum) - Axum web framework integration.
 - [x402-reqwest](https://github.com/x402-rs/x402-rs/tree/main/x402-reqwest) - Reqwest HTTP client wrapper.
 
-### Other Languages
-
-- [x402-go](https://github.com/x402-protocol/x402-go) - Go implementation *(community-maintained)*.
-- [x402-ruby](https://github.com/x402-protocol/x402-ruby) - Ruby gem *(community-maintained)*.
-- [x402-java](https://github.com/x402-protocol/x402-java) - Java SDK *(community-maintained)*.
-- [x402-php](https://github.com/x402-protocol/x402-php) - PHP library *(community-maintained)*.
 
 ## 🏭 Production Implementations
 
@@ -168,10 +162,6 @@ Client libraries for making x402 payments.
 **Wallet Integration**
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
-
-### Python
-
-- [x402 httpx adapter](https://github.com/x402-protocol/x402-httpx) - Async HTTP client with x402.
 
 ### Rust
 
@@ -234,8 +224,6 @@ Full working examples and templates.
 ### API Examples
 
 - [REST API with Auth Pricing](https://github.com/coinbase/x402/tree/main/examples/typescript/fullstack/auth_based_pricing) - SIWE + dynamic pricing.
-- [AI Chat API](https://github.com/examples/ai-chat-api) - Per-message payment model.
-- [File Storage API](https://github.com/examples/storage-api) - Pay-per-download pattern.
 
 ### Client Examples
 
@@ -292,10 +280,6 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 ### Production Patterns
 
 - Dynamic Pricing Strategy - SIWE authentication with conditional pricing.
-- [Rate Limiting](https://github.com/examples/rate-limiting) - Payment-based rate limit bypass.
-- [Caching Strategy](https://github.com/examples/caching) - Cache payment requirements.
-- [Error Handling](https://github.com/examples/error-handling) - Graceful payment failures.
-- [Refund Patterns](https://github.com/examples/refunds) - Handling refunds and disputes.
 
 ## 🤖 AI Agent Integration
 
@@ -310,8 +294,6 @@ Enable AI agents to make autonomous payments.
 
 ### Agent Frameworks
 
-- [LangChain x402 Tool](https://github.com/examples/langchain-x402) - LangChain integration.
-- [AutoGPT Plugin](https://github.com/examples/autogpt-x402) - Autonomous task payments.
 - [NEAR AI](https://near.ai) - Cross-chain agent settlements.
 - [Phidata Agents](https://github.com/phidatahq/phidata) - Multi-modal agents with x402.
 
@@ -322,11 +304,6 @@ Enable AI agents to make autonomous payments.
   - Payment-required, payment-submitted, payment-completed flow
   - Multi-agent payment orchestration
 
-### Agent Examples
-
-- [Autonomous Trading Bot](https://github.com/examples/trading-bot) - Pays for market data.
-- [Content Scraper Agent](https://github.com/examples/scraper-agent) - Pays per scrape.
-- [Research Assistant](https://github.com/examples/research-agent) - Purchases academic papers.
 
 ## 🔨 Tools & Utilities
 
@@ -334,25 +311,11 @@ Development tools and utilities for x402.
 
 ### CLI Tools
 
-- [x402-cli](https://github.com/tools/x402-cli) - Command-line testing and deployment.
-- [x402-inspect](https://github.com/tools/x402-inspect) - Debug payment flows.
 - [Foundry](https://getfoundry.sh/) - Smart contract development toolkit.
-
-### Browser Extensions
-
-- [x402 DevTools](https://github.com/tools/x402-devtools) - Browser extension for debugging.
-- [Payment Inspector](https://github.com/tools/payment-inspector) - View payment requirements.
 
 ### Monitoring & Analytics
 
-- [x402 Dashboard](https://github.com/tools/x402-dashboard) - Revenue analytics dashboard.
 - Dune Analytics - On-chain metrics and visualizations.
-- [x402 Prometheus Exporter](https://github.com/tools/x402-prometheus) - Metrics exporter.
-
-### Payment Generators
-
-- [Payment Requirement Builder](https://github.com/tools/payment-builder) - Visual payment requirement creator.
-- [Price Calculator](https://github.com/tools/price-calculator) - Calculate optimal pricing.
 
 ## 🧪 Testing & Development
 
@@ -364,21 +327,6 @@ Tools and resources for testing x402 implementations.
 - [Base Sepolia USDC Faucet](https://faucet.circle.com/) - Get test USDC.
 - [Base Sepolia Bridge](https://bridge.base.org/) - Bridge test ETH.
 
-### Testing Tools
-
-- [x402-test-suite](https://github.com/testing/x402-test-suite) - Integration test framework.
-- [Mock Facilitator](https://github.com/testing/mock-facilitator) - Local development facilitator.
-- [Payment Simulator](https://github.com/testing/payment-simulator) - Simulate payment flows.
-
-### Postman/Insomnia
-
-- [x402 Postman Collection](https://github.com/testing/x402-postman) - API testing collection.
-- [Insomnia Workspace](https://github.com/testing/x402-insomnia) - REST client workspace.
-
-### CI/CD Integration
-
-- [GitHub Actions Workflow](https://github.com/testing/x402-ci) - Automated testing pipeline.
-- [GitLab CI Example](https://github.com/testing/x402-gitlab) - GitLab CI/CD configuration.
 
 ## 📚 Tutorials & Learning Resources
 
@@ -393,23 +341,11 @@ Guides and tutorials for learning x402.
 
 ### Intermediate Tutorials
 
-- [Multi-Chain Support](https://github.com/tutorials/multi-chain) - Deploy on multiple chains.
 - Authentication + Dynamic Pricing - SIWE integration.
-- [Rate Limiting Strategies](https://github.com/tutorials/rate-limiting) - Implement rate limits.
-- [Session Management](https://github.com/tutorials/sessions) - Aggregate payments.
 
 ### Advanced Tutorials
 
 - Building a Custom Facilitator - Self-host verification.
-- [Gas Optimization Techniques](https://github.com/tutorials/gas-optimization) - EIP-3009 deep dive.
-- [High-Throughput APIs](https://github.com/tutorials/scaling) - Handle 1000+ req/sec.
-- [Security Hardening](https://github.com/tutorials/security) - Production security.
-
-### Code Patterns
-
-- [Error Handling Patterns](https://github.com/patterns/error-handling) - Handle edge cases.
-- [Retry Logic](https://github.com/patterns/retry-logic) - Implement retries.
-- [Caching Strategies](https://github.com/patterns/caching) - Optimize performance.
 
 ## 🎥 Videos & Talks
 
@@ -447,13 +383,10 @@ Written content about x402.
 
 - How x402 Works - Technical explanation.
 - [EIP-3009 Explained](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) - Gasless transfers.
-- [x402 vs Traditional Payments](https://blog.example.com/x402-vs-traditional) - Comparison study.
 
 ### Use Case Articles
 
 - [AI Agents Need x402](https://a16z.com/ai-agent-payments/) - Future of autonomous payments.
-- [Micropayments Finally Work](https://blog.example.com/micropayments) - Economic analysis.
-- [Building the Agent Economy](https://blog.example.com/agent-economy) - Market opportunity.
 
 ### News Coverage
 
@@ -552,24 +485,15 @@ Comprehensive guides for migrating from traditional payment systems to x402.
 
 ### From Traditional Payment Processors
 
-- [From Stripe to x402](https://docs.cdp.coinbase.com/x402/migrate/stripe) - Migrate subscription and one-time payments from Stripe to x402 for crypto-native payments with instant settlement. Includes API comparison, webhook migration strategies, customer migration approaches, and zero-fee cost analysis.
-- [From PayPal to x402](https://github.com/guides/migrate-paypal) - Replace PayPal fees (2.9% + $0.30) with zero-fee x402 settlements. Covers checkout flow conversion, IPN to x402 webhooks, and international payment handling.
+- [From Stripe to x402](https://docs.cdp.coinbase.com/x402/migrate/stripe) - Migrate subscription and one-time payments from Stripe to x402 for crypto-native payments with instant settlement.
 
 ### From Authentication to Payments
 
-- [From API Keys to x402 Payments](https://docs.cdp.coinbase.com/x402/migrate/api-keys) - Replace API key-based access control with payment-per-use models. Includes authentication middleware replacement, rate limiting evolution, revenue model transformation, and pay-per-request implementation.
-- [From OAuth to x402](https://github.com/guides/migrate-oauth) - Combine identity with payments for premium API access. Covers SIWE + x402 integration, token-gated + paid content, and dynamic pricing by identity.
+- [From API Keys to x402 Payments](https://docs.cdp.coinbase.com/x402/migrate/api-keys) - Replace API key-based access control with payment-per-use models.
 
 ### From Subscription to Usage-Based
 
-- [From Subscription to Pay-Per-Use](https://docs.cdp.coinbase.com/x402/migrate/subscriptions) - Transform monthly subscriptions into granular pay-as-you-go pricing. Includes SaaS model evolution, pricing psychology and conversion, customer acquisition benefits, and revenue optimization strategies.
-- [From Flat Rate to Metered Billing](https://github.com/guides/metered-billing) - Implement token-based or time-based usage pricing. Covers LLM API pricing models, infrastructure cost passthrough, and usage tracking and aggregation.
-
-### Platform-Specific Migrations
-
-- [WordPress to x402](https://github.com/guides/wordpress-x402) - Add x402 paywalls to WordPress sites replacing traditional payment plugins.
-- [Shopify to x402](https://github.com/guides/shopify-x402) - Enable crypto payments for e-commerce with instant settlement.
-- [Ghost to x402](https://github.com/guides/ghost-x402) - Membership and subscription migration for Ghost publishing platform.
+- [From Subscription to Pay-Per-Use](https://docs.cdp.coinbase.com/x402/migrate/subscriptions) - Transform monthly subscriptions into granular pay-as-you-go pricing.
 
 ## 🔒 Security & Audits
 
@@ -612,8 +536,6 @@ Security resources and best practices for x402 implementations.
 
 ### Security Monitoring
 
-- [x402 Security Scanner](https://github.com/tools/x402-security-scanner) - Automated security scanning for x402 integrations.
-- [Transaction Monitoring](https://github.com/tools/x402-monitor) - Real-time alert system for suspicious payment activity.
 - [Rate Limiting Tools](https://docs.cdp.coinbase.com/x402/security/rate-limiting) - Prevent abuse and ensure service availability.
 
 ## 🔗 Related Protocols
