@@ -358,6 +358,8 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Recall Kitchen](https://recallkitchen.com/docs/#mcp) - MCP server for searching food/product/vehicle recalls. Accepts x402 payments, no account required, $0.025 USDC on Base per request. [Examples](https://github.com/Recall-Kitchen/rk-mcp/tree/master/examples/go)
 - [Human Pages](https://humanpages.ai) - The open directory AI agents use to hire humans for real-world tasks. Supports x402 pay-per-use for profile views ($0.05) and job offers ($0.25) in USDC on Base. Also available as an [MCP server](https://github.com/human-pages-ai/humanpages) with 31 tools.
 
+- [Spraay MCP Server](https://smithery.ai/server/@plagtech/spraay-x402-mcp) - 60+ tool MCP server for multi-chain DeFi payments: batch sends, payroll, token swaps, bridge, escrow, AI inference, and Robot Task Protocol (RTP). 76+ x402 endpoints across 13 chains (Base, Ethereum, Solana, Bitcoin, + 9 more). $ .005-$ .25 USDC. ([GitHub](https://github.com/plagtech)) ([Gateway](https://gateway.spraay.app)) ([Docs](https://docs.spraay.app))
+
 ### Agent Frameworks
 
 - [NEAR AI](https://near.ai) - Cross-chain agent settlements.
@@ -531,6 +533,7 @@ Projects building with or extending x402.
 - [Zyte.com](https://www.zyte.com) - Web scraping with x402 payments.
 - BuffetPay - Smart x402 payments with guardrails.
 - [Cal.com](https://cal.com) - Automated scheduling with payments.
+- [Spraay Gateway](https://gateway.spraay.app) - Multi-chain batch payment protocol and x402 gateway. 76+ paid endpoints across 16 categories and 13 chains. Batch payments, payroll, token swaps, bridge, escrow, AI inference (43+ models), Robot Task Protocol (RTP), agent wallets, and more. Also available as an [MCP server](https://smithery.ai/server/@plagtech/spraay-x402-mcp) with 60+ tools. ([Docs](https://docs.spraay.app)) ([Stripe hybrid example](https://github.com/plagtech/spraay-stripe-machine-payments))
 - [AgentStore](https://agentstore.tools) - Open-source marketplace for Claude Code plugins with x402 USDC payments, 80/20 publisher revenue split, and permissionless publishing via CLI.
 - [AIAgentStore.ai](https://aiagentstore.ai/developer) - Insights for founders with x402 payments.
 - [Einstein AI](https://emc2ai.io) - AI blockchain intelligence with 23 x402 endpoints. Whale tracking, smart money, launchpad monitoring, security audits.
