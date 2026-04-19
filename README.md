@@ -215,6 +215,7 @@ Server-side integrations for accepting x402 payments.
 
 **Express / Hono**
 - [@moltrust/x402](https://www.npmjs.com/package/@moltrust/x402) - Trust score middleware for x402 endpoints. One line: `app.use(requireScore({ minScore: 60 }))`. Extracts paying wallet from X-Payment header, looks up MolTrust trust score, blocks agents below threshold with 403 + registration link. Zero dependencies. ([npm](https://www.npmjs.com/package/@moltrust/x402)) ([GitHub](https://github.com/MoltyCel/moltrust-x402))
+- [@larkinsh/x402](https://www.npmjs.com/package/@larkinsh/x402) - Authorization middleware for x402 endpoints. One line: `preflight(handler, { minScore: 40 })`. Gates by a 5-dimension trust score (wallet age, tx history, counterparties, funding source, ERC-8004), returns Ed25519-signed receipts verifiable with only the public key, supports block / warn / surcharge modes. Hono / Express / Next adapters. ([npm](https://www.npmjs.com/package/@larkinsh/x402)) ([GitHub](https://github.com/larkin-dev/larkin))
 
 **Next.js**
 - [x402-next](https://www.npmjs.com/package/x402-next) - App Router middleware.
