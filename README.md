@@ -267,6 +267,7 @@ Payment verification and settlement services.
   - REST API endpoints (/verify, /settle)
 - [Running Your Own Facilitator](https://github.com/x402-rs/x402-rs#facilitator) - Setup guide.
 - [@facilitator/eip7702](https://github.com/melonask/facilitator) - Support for all EVM blockchains (BNB, Polygon, etc.), all tokens (USDT, DAI, WBTC, etc.), and all native coins (POL, AVAX, etc.).
+- [agenticpay facilitator](https://github.com/krystiangw/agenticpay/tree/main/packages/facilitator) ([npm](https://www.npmjs.com/package/@agenticpay/facilitator)) - Open-source TypeScript facilitator for Solana (devnet + mainnet). Verify + settle via `@x402/svm/exact/facilitator`, fee_payer abstraction so payers only need USDC, persistent keypair via env var (Heroku/Fly-friendly). Hosted devnet endpoint: `https://agentpay-facilitator-e9b20a5fee6a.herokuapp.com`.
 
 ## 💡 Example Applications
 
