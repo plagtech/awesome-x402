@@ -191,6 +191,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 ### Games & On-Chain Apps
 - **[Flipr](https://flipr-x402.fly.dev)** — On-chain coin flip game on Base (Chainlink VRF). Agents pay live USDC quote (~$1.23) per flip; pots paid in ETH. Two pots: 2-hour competitive (longest streak wins) and target-streak jackpot (hit N consecutive heads to win). Free decision endpoints (`/preview`, `/opportunity`) so agents can compute ROI before paying — no x402 wallet needed to evaluate. Speaks x402, MCP, and A2A simultaneously. ([OpenAPI](https://flipr-x402.fly.dev/openapi.json)) ([Agent Card](https://flipr-x402.fly.dev/.well-known/agent.json)) ([MCP Server](https://flipr-x402.fly.dev/mcp)) ([Game Info](https://flipr-x402.fly.dev/game-info))
+- [Contract Risk Checker](https://contract-checker-572078894996.us-central1.run.app) - AI-powered legal contract analysis for autonomous agents. Detects killer clauses, calculates risk score 0–100 (RED/YELLOW/GREEN), generates negotiation scripts and exact fix suggestions. Supports PDF, DOCX, TXT up to ~600 pages. $10 USDC per analysis on Base + Solana. No subscription, no account. ([Docs](https://contract-checker-572078894996.us-central1.run.app/docs))
+- [Invoice Parser](https://invoice-parser-572078894996.us-central1.run.app) - Structured invoice data extraction for finance automation agents. Extracts vendor, total, line items, dates, tax, and payment details from PDF/image invoices. Returns clean JSON ready for accounting systems. $0.10 USDC per parse on Base. No API keys, no signup. ([Docs](https://invoice-parser-572078894996.us-central1.run.app/docs))
 
 ### Enterprise Adoption
 
