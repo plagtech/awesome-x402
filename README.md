@@ -629,6 +629,7 @@ Written content about x402.
 - [Agentic Commerce](https://www.xpay.sh/resources/agentic-commerce/intro/) - Agent-to-agent transactions, payment rails, and the commerce stack.
 - [Agentic Economy Timeline](https://www.xpay.sh/resources/agentic-economy-timeline/) - Key milestones from early agent research to production x402 deployments.
 - AI Agents Need x402 - Future of autonomous payments.
+- [mondello.dev](https://mondello.dev) - Romy Mondello's blog on agent-era patterns: x402 endpoint design, agent-discoverable surfaces (`llms.txt`, OpenAPI 3.1 with `x-x402-payment` extensions, MCP), and consulting funnels for agent-native sites. Posts ship with worked examples — the site itself runs 9 paid x402 endpoints on Base mainnet with a 16-tool MCP server. ([llms.txt](https://mondello.dev/llms.txt) | [OpenAPI](https://mondello.dev/openapi.json) | [MCP](https://mondello.dev/api/mcp))
 
 ### News Coverage
 
