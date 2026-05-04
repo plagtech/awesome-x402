@@ -899,6 +899,11 @@ Security resources and best practices for x402 implementations.
 - [PaySentry](https://github.com/mkmkkkkk/paysentry) - Control plane for AI agent payments. Spending limits, circuit breakers, anomaly detection, and audit trails for x402 integrations. npm: `@paysentry/x402`.
 - [ShieldAPI](https://shield.vainplex.dev) - x402-native security intelligence API for AI agents. 9 endpoints: password/email breach check, domain/IP reputation, URL safety, prompt injection detection, and skill security scanning. Micropayments ($0.001–$0.02 USDC) on Base. Battle-tested against live AI agent SSRF attacks. [MCP Server](https://www.npmjs.com/package/shieldapi-mcp) | [x402scan](https://www.x402scan.com/server/55c99a38-34b3-4b2c-8987-f58ebd88a7df)
 - [Agent Payment Safety Audit Desk](https://x402.bitcoinsapi.com/x402/offers/agent-api-discovery-audit.json) - 48-hour x402, MCP, wallet, and agent-payment workflow audit with reproducible smoke scripts, payment-route checks, and buyer-facing safety findings.
+- [RektWatch](https://rektwatch.dev) - DeFi security intelligence feed for AI agents 
+and developers. 511 protocols tracked ($553B TVL), 813 incidents indexed ($43.2B stolen), 
+867 audit reports across 10 auditors, 225 live Immunefi bug bounties. Risk scores with 
+per-factor explainability, live exploit alerts, and audit findings. $0.02–$0.15/call via 
+x402 v2. MCP server on npm. Dataset actively growing.
 
 ### Spending Controls & Policy Enforcement
 
