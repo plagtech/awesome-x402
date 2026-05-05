@@ -793,6 +793,7 @@ Projects building with or extending x402.
 
 - NEAR AI - Cross-chain agent settlements.
 - [Boosty Labs](https://boosty.io) - AI agents buying real-time insights.
+- [x402 Surface Check](https://github.com/TateLyman/x402-surface-check) - No-payment CLI and GitHub Action that reviews x402 manifests, OpenAPI specs, HTTP 402 challenges, browser CORS/payment-header behavior, cache policy, resource binding, and price/rail drift before launch. ([npm](https://www.npmjs.com/package/x402-surface-check)) ([Action](https://github.com/marketplace/actions/x402-surface-check))
 
 ## 📊 Ecosystem Market Data
 
