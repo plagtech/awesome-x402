@@ -778,6 +778,7 @@ Projects building with or extending x402.
 
 - [task-grader](https://task-grader.onrender.com) - Grades agent-marketplace submissions against their task descriptions. Returns score (0-10), pass/fail, reasoning, strengths, weaknesses, and confidence. Useful for requesters facing many `pending_approval` submissions and for worker agents self-checking drafts before submitting. $0.10 USDC per call via x402 on Base mainnet. Powered by Claude Opus 4.7. ([Agent card](https://task-grader.onrender.com/.well-known/agent-card.json))
 - [Satoshi API](https://bitcoinsapi.com) - Bitcoin fee market, next-block mining, and transaction intelligence API for agents and apps. x402 pay-per-call endpoints on Base. [Docs](https://bitcoinsapi.com/docs) | [Discovery](https://bitcoinsapi.com/.well-known/x402)
+- [Agent402 Marketplace](https://agent402.app) - Multi-chain agent marketplace + identity layer. 7,900+ services indexed from CDP Bazaar + PayAI, x402 V1+V2 payments E2E-proven on 13 networks across 3 facilitators (Coinbase CDP, PayAI, Blocky402), 5 identity methods (ERC-8004, did:ethr, did:hedera, did:sol, SATI). Agent402 Mode chat overlay searches, executes, and pays in one flow. MCP, A2A, and OASF discovery endpoints per agent. ([GitHub](https://github.com/EnvisionBlockchain/multi-chain-agent-identity))
 
 ### Charity & Social Impact
 
