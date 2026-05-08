@@ -433,6 +433,7 @@ Enable AI agents to make autonomous payments.
 
 ### Agent Verification & Security
 
+- [AgentGrade](https://agentgrade.com) - Free web-based scanner that validates x402 implementations on any URL (HTTP 402 with quoted price headers, payment-required surface, well-known/x402 discovery, agent-readable pricing) alongside ~70 other agent-readiness checks. Per-check remediation hints linked to a Knowledge Base. Also available as a [CLI](https://github.com/Agentic-Adventures/agentgrade-cli), [MCP server](https://agentgrade.com/mcp), and [GitHub Action](https://github.com/marketplace/actions/agentgrade-scan). Public leaderboard at [agentgrade.com/leaderboard/](https://agentgrade.com/leaderboard/).
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
 - [Boundary Guard](https://boundary-guard.vercel.app) - Pre-action checkpoint API for agents. Returns `allow`, `retry`, or `block` plus a deterministic receipt before downstream writes, sends, or other actions. Live docs and x402 inventory are published on the public host. ([GitHub](https://github.com/LarryLemonBot/boundary-guard))
 - [Agent Passport System (APS)](https://github.com/aeoess/agent-passport-system) - Open-source governance and delegation layer for x402. Provides cryptographic agent identity, scoped delegation with spending caps, rotation-aware DID verification, and signed receipts with per-condition attestation. Apache 2.0.
