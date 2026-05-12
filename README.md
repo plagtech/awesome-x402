@@ -235,6 +235,9 @@ Client libraries for making x402 payments.
 
 Server-side integrations for accepting x402 payments.
 
+### Gateway / Proxy
+- [swerver](https://x402.swerver.net) - High-performance x402 gateway proxy. Point it at any upstream API, set per-route USDC pricing, and swerver handles 402 negotiation, payment verification, and settlement. Built in Zig (3.4M rps on 64 cores). Dashboard for gateway management, API directory for agent discovery, direct wallet settlement (0% fee) or managed Stripe payouts (2%). Base network, USDC. ([Docs](https://x402.swerver.net/docs)) ([Directory](https://x402.swerver.net/directory))
+
 ### Node.js/TypeScript
 
 **Multi-Framework**
