@@ -443,6 +443,8 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 - [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
 
+- [GEDX402](https://ged-x402.jvalamis.workers.dev) — Cloudflare Workers AI hub with x402 v2 USDC (Base, Polygon, Arbitrum, World, Solana). Eight modality shards. [Hub](https://ged-x402.jvalamis.workers.dev) | [agents.json](https://ged-x402.jvalamis.workers.dev/.well-known/agents.json) | [OpenAPI](https://ged-x402.jvalamis.workers.dev/openapi.json) | [x402](https://ged-x402.jvalamis.workers.dev/.well-known/x402) | [MCP](https://github.com/scrolls-cf/ged-x402)
+
 ### Model Context Protocol (MCP)
 
 - Anthropic MCP Integration - Official Claude integration.
