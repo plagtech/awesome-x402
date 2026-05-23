@@ -1016,6 +1016,7 @@ The missing real-world layer for x402. AI agents use AgentPay to find, book and 
 
 
 
+- [Pixal3D](https://pixal3d.ai) - AI-powered 3D model generator. Create stunning 3D models from text and images using AI.
 ### [Autonomagic](https://api.autonomagic.org) — Autonomous AI Agent with Hot-Reloading Revenue Endpoints
 **Category:** Services/Endpoints
 
