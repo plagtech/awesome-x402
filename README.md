@@ -545,10 +545,12 @@ Development tools and utilities for x402.
 - [Agent Forensics](https://www.npmjs.com/package/agent-forensics) - Agent cost observability for Claude Code. Analyzes JSONL session logs to show per-model cost breakdown, cache efficiency, waste patterns (model misallocation, debug loops, sub-agent sprawl), and estimated savings. Free CLI: `npx agent-forensics analyze`. x402 API: $5 basic / $15 full tier on Base. ([Live](https://api.agentsconsultants.com))
 
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration with x402 micropayments. 49 endpoints, 39 MCP tools, knowledge/RAG. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
+- [SmartFlow Mapper API](https://api.smartflowproai.com) - JSON REST API exposing 22,251+ catalogued x402 endpoints with uptime, payment-success, and facilitator metadata. Free tier (100 req/day) + paid bulk export. ([Live stats](https://api.smartflowproai.com/v1/stats))
 
 ### Security & Analysis
 
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
+- [x402-endpoint-validator](https://github.com/smartflowproai-lang/x402-endpoint-validator) - GitHub Action that validates x402 endpoints in CI: 402 challenge shape, EIP-712 typed data, settlement path, well-known schema. Drop-in YAML, MIT licensed. ([Marketplace](https://github.com/marketplace/actions/x402-endpoint-validator))
 
 
 ## 🧪 Testing & Development
@@ -624,6 +626,10 @@ Written content about x402.
 - [Agentic Commerce](https://www.xpay.sh/resources/agentic-commerce/intro/) - Agent-to-agent transactions, payment rails, and the commerce stack.
 - [Agentic Economy Timeline](https://www.xpay.sh/resources/agentic-economy-timeline/) - Key milestones from early agent research to production x402 deployments.
 - AI Agents Need x402 - Future of autonomous payments.
+
+### Newsletters
+
+- [SmartFlow Weekly Intel](https://smartflowproai.substack.com) - Weekly newsletter on x402 network health, facilitator behavior, and endpoint forensics. Free, archived publicly.
 
 ### News Coverage
 
@@ -810,6 +816,7 @@ Live metrics and on-chain analytics for the x402 ecosystem.
 - [Valoria](https://x402.valoria.net) - x402 market intelligence with revenue rankings, service analysis, and pricing data across 90K+ indexed services and $148M+ in tracked on-chain volume.
 - [x402watch](https://x402.printmoneylab.com) - Wash-filtered intelligence layer for x402. 36k+ services indexed across Base, Solana, Polygon, and Arbitrum, AI-classified into 33 categories with 8-label buyer detection (organic_user, suspected_wash, self_test, developer, ai_agent, analytics_bot, exchange_user, verifier). 24h trends, anonymized case studies, daily CC0 datasets, x402-native paid API, and MCP server.
 - [CoinGecko x402 Category](https://coingecko.com/en/categories/x402) - Token tracking and market data featuring $180M+ tracked market cap, price charts, trading volumes, and ecosystem token listings.
+- [SmartFlow Observatory](https://smartflowproai.com) - Public observatory for the x402 endpoint network on Base. Canary probes, settlement tracing, weekly Atlas drill-downs. 22,251 endpoints catalogued. Companion to the [Mapper API](https://api.smartflowproai.com) and [Weekly Intel](https://smartflowproai.substack.com).
 
 ### Growth Metrics
 
