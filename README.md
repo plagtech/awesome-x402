@@ -549,6 +549,7 @@ Development tools and utilities for x402.
 ### Security & Analysis
 
 - [Base Token Safety Scanner](https://base-token-scanner.onrender.com) - Free API that analyzes Base chain ERC-20 tokens for rug pull risks, honeypots, ownership issues, and security flags. Returns risk score with detailed flag breakdown. Built for AI agents and DeFi traders. ([GitHub](https://github.com/0xVarius/base-token-scanner)) ([Guide](https://base-token-scanner.onrender.com/guide))
+- [Agent Commerce Desk](https://x402-wallet-readiness-service.vercel.app) - Base wallet readiness, agent-commerce receipt, crypto market snapshot, OHLCV, and GitHub repo intelligence APIs for AI agents. x402 v2 on Base mainnet with native USDC settlement; endpoints range from $0.01-$2.00 per call. ([Discovery](https://x402-wallet-readiness-service.vercel.app/.well-known/x402) | [Agent Card](https://x402-wallet-readiness-service.vercel.app/.well-known/agent-card.json) | [Manifest](https://x402-wallet-readiness-service.vercel.app/manifest))
 
 
 ## 🧪 Testing & Development
