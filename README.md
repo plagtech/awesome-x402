@@ -436,6 +436,7 @@ Enable AI agents to make autonomous payments.
 - [Achilles EP AgentIAM](https://achillesalpha.onrender.com/quickstart) — 5 AI agent verification endpoints (NoLeak, MemGuard, RiskOracle, SecureExec, FlowCore) on Base Mainnet. $0.01-$0.02 USDC per call via x402.
 - [Boundary Guard](https://boundary-guard.vercel.app) - Pre-action checkpoint API for agents. Returns `allow`, `retry`, or `block` plus a deterministic receipt before downstream writes, sends, or other actions. Live docs and x402 inventory are published on the public host. ([GitHub](https://github.com/LarryLemonBot/boundary-guard))
 - [Agent Passport System (APS)](https://github.com/aeoess/agent-passport-system) - Open-source governance and delegation layer for x402. Provides cryptographic agent identity, scoped delegation with spending caps, rotation-aware DID verification, and signed receipts with per-condition attestation. Apache 2.0.
+- [Vouch](https://vouch.futuronoti.workers.dev) - Counterparty trust/risk scoring for x402 payments; explainable score, risk band, and reasons. $0.001 USDC on Base Sepolia (testnet). ([source](https://github.com/notifuturo/vouch)) ([/.well-known/x402](https://vouch.futuronoti.workers.dev/.well-known/x402))
 
 ### GPU Inference APIs
 
