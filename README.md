@@ -167,6 +167,9 @@ Real companies using x402 in production with proven scale and transaction volume
 | Radius        | Production  | Community                  | Instant (<1s)   | Micropayments             |
 
 ### Data & Social APIs
+
+- [OSF — Open Source Filings](https://osf-master-server.com) - Provenance-stamped public-domain US government and scientific data for AI agents. SEC EDGAR, FRED, NOAA, openFDA, USGS, Crossref, and more — every record ships with a provenance URL back to its authoritative primary source. Pay-per-record x402 USDC on Base, $0.05–$0.50. Paid MCP server + listed in the official MCP Registry. No API keys, no subscriptions. ([MCP](https://api.osf-master-server.com/mcp) | [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=osf-data-marketplace) | [Bazaar health](https://api.osf-master-server.com/x402/bazaar_health))
+- 
 - [Pyrimid](https://pyrimid.ai) - Agent commerce protocol for x402-style USDC payments on Base. Includes on-chain vendor/product registry, payment router, affiliate attribution, MCP endpoint, and live catalog API for agent-discoverable paid services. Current mainnet proof: 3 vendors, 8 on-chain products, 4 routed test payments. ([Catalog](https://pyrimid.ai/api/v1/catalog)) ([MCP](https://pyrimid.ai/api/mcp)) ([Skill](https://pyrimid.ai/skill.md))
 - **[Polybot Arb Intelligence](https://github.com/packrvnner/polybot-arb-api)** — Real-time cross-platform prediction market arb data (Polymarket+Kalshi+Myriad). x402 USDC on Base. [Live API](https://governments-ruth-distribution-breaks.trycloudflare.com/free/market-pulse)
 
