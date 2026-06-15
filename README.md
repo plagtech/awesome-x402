@@ -442,7 +442,7 @@ Enable AI agents to make autonomous payments.
 x402-native GPU inference APIs that let agents pay autonomously for compute.
 
 - [GPU-Bridge](https://gpubridge.xyz) - 30-service GPU inference API with native x402 payments (USDC on Base L2). LLM, image generation, embeddings, STT, TTS, PDF processing — all in one API. Agents pay per call with no human intervention. /usr/bin/bash.00002/embedding, /usr/bin/bash.001/LLM call. ([Docs](https://docs.gpubridge.xyz)) ([GitHub](https://github.com/fjnunezp75/gpu-bridge))
-- [Verified Burst](https://burst.solcleus.com) - Pay-per-correct-answer inference for agents: escalate to fast silicon (Cerebras), sample best-of-N, run a verifier, and settle over x402 — charged only if the answer passes. BYOK (your tokens, your rate limit), self-hosted facilitator, USDC on Base mainnet. MCP one-liner: `pip install verified-burst`. ([x402scan](https://www.x402scan.com/server/d09b513d-cefa-46de-a1c8-34189026c408)) ([PyPI](https://pypi.org/project/verified-burst/))
+- [Verified Burst](https://burst.solcleus.com) - Pay-per-correct-answer inference for agents: escalate to fast silicon (Cerebras), sample best-of-N, run a verifier, and settle over x402 — charged only if the answer passes. No API key to start (first 3 bursts run on the host key, just a funded Base wallet), then BYOK (your tokens, your rate limit). Self-hosted facilitator, USDC on Base mainnet. MCP one-liner: `pip install verified-burst`. ([x402scan](https://www.x402scan.com/server/d09b513d-cefa-46de-a1c8-34189026c408)) ([PyPI](https://pypi.org/project/verified-burst/))
 
 ### Model Context Protocol (MCP)
 
