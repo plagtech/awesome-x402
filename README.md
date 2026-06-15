@@ -536,6 +536,7 @@ x402-native GPU inference APIs that let agents pay autonomously for compute.
 - [Spraay Compute & Futures](https://github.com/plagtech/spraay-compute) - GPU compute and AI model inference (LLM, image, video, speech-to-text, text-to-speech, embeddings) over x402, plus prepaid compute-futures credits with tier discounts up to 15% — deposit USDC once and draw down per job. USDC on Base + Solana, no API keys. Installable as an OpenClaw/Claude Code skill via npx clawhub install spraay-compute. Part of the Spraay x402 gateway.
 
 - [GEDX402](https://gedx402.com) - Cloudflare Workers AI hub with x402 v2 USDC (Base, Polygon, Arbitrum, World, Solana). Eight modality shards. [Hub](https://gedx402.com) | [agents.json](https://gedx402.com/.well-known/agents.json) | [OpenAPI](https://gedx402.com/openapi.json) | [x402](https://gedx402.com/.well-known/x402) | [MCP](https://github.com/scrolls-cf/ged-x402)
+- [Verified Burst](https://burst.solcleus.com) - Pay-per-correct-answer inference for agents: escalate to fast silicon (Cerebras), sample best-of-N, run a verifier, and settle over x402 — charged only if the answer passes. No API key to start (first 3 bursts run on the host key, just a funded Base wallet), then BYOK (your tokens, your rate limit). Self-hosted facilitator, USDC on Base mainnet. MCP one-liner: `pip install verified-burst`. ([x402scan](https://www.x402scan.com/server/d09b513d-cefa-46de-a1c8-34189026c408)) ([PyPI](https://pypi.org/project/verified-burst/))
 
 ### Model Context Protocol (MCP)
 
